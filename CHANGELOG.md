@@ -1,8 +1,21 @@
 # HEAD
 
-- Two new map projections: `orthographic2` and `gnomonic`
+# Version 2.2.0
+
+- Add Appveyor support to test Healpix under Windows
+  ([#14](https://github.com/ziotom78/Healpix.jl/pull/14))
+- Better structure of the code: now the source code is split into
+  smaller files, and tests have been grouped in sets
+  ([#13](https://github.com/ziotom78/Healpix.jl/pull/13))
+- New type `PolarizedMap` added ([#13](https://github.com/ziotom78/Healpix.jl/pull/13))
+- New keyword `write_keywords` added to `saveToFITS`
+  ([#13](https://github.com/ziotom78/Healpix.jl/pull/13))
 - Make `Map` descend from the abstract type `GenericMap`
   ([#12](https://github.com/ziotom78/Healpix.jl/pull/12))
+
+# Version 2.1.0
+
+- Two new map projections: `orthographic2` and `gnomonic` ([43e90915](https://github.com/ziotom78/Healpix.jl/commit/43e90915dba47577de322970bbc14d58b9830ab5))
 
 # Version 2.0.0
 
